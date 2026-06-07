@@ -35,14 +35,14 @@ This project provides REST APIs for managing patients, doctors, appointments, de
     http://localhost:8080/api/v1/
 
 ## API Endpoints
-Admin
+**Admin**
  GET /api/v1/admin/patients?page=0&size=10 → Get paginated list of patients
-Doctor
+**Doctor**
  GET /api/v1/doctors/appointments → Get all appointments of doctor (currently hardcoded doctorId=1)
-Patient
+**Patient**
  GET /api/v1/patients/profile → Get patient profile (currently hardcoded patientId=4)
  POST /api/v1/patients/appointments → Create new appointment
-Public
+**Public**
  GET /api/v1/public/doctors → Get list of all doctors
 
 ## Project Structure
