@@ -1,4 +1,4 @@
-# Hospital Management System 🏥
+# Hospital Management System 
 
 A Spring Boot + JPA based Hospital Management System.  
 This project provides REST APIs for managing patients, doctors, appointments, departments, and insurance records.
